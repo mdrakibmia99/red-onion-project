@@ -1,0 +1,128 @@
+[
+    {
+        "id": "b1",
+        "title": "Bagel and Cream Cheese",
+        "description": "Nondisp commnt suprcndl fx w/o intrcndl fx unsp humer, 7thG",
+        "thumbnail": "/images/breakfast/breakfast1.png",
+        "price": 75
+    },
+    {
+        "id": "b2",
+        "title": "Breakfast Sandwich",
+        "description": "Nondisp fx of sternal end of right clavicle, init for opn fx",
+        "thumbnail": "/images/breakfast/breakfast2.png",
+        "price": 55
+    },
+    {
+        "id": "b3",
+        "title": "Baked Chiken",
+        "description": "Occ of rail trn/veh injured due to object falling onto train",
+        "thumbnail": "/images/breakfast/breakfast3.png",
+        "price": 69
+    },
+    {
+        "id": "b4",
+        "title": "Eggs Benedict",
+        "description": "Focal chorioretin inflammation of posterior pole, bilateral",
+        "thumbnail": "/images/breakfast/breakfast4.png",
+        "price": 83
+    },
+    {
+        "id": "b5",
+        "title": "Toast Croissant Fried Eggs",
+        "description": "Fall into natural body of water striking water surface",
+        "thumbnail": "/images/breakfast/breakfast5.png",
+        "price": 99
+    },
+    {
+        "id": "b6",
+        "title": "Full Breakfast Fried Egg Toast Bruhch",
+        "description": "Nondisp commnt fx shaft of l tibia, 7thG",
+        "thumbnail": "/images/breakfast/breakfast6.png",
+        "price": 41
+    },
+    {
+        "id": "l1",
+        "title": "Healthy Meal Plan",
+        "description": "Nondisp commnt suprcndl fx w/o intrcndl fx unsp humer, 7thG",
+        "thumbnail": "/images/lunch/lunch1.png",
+        "price": 75
+    },
+    {
+        "id": "l2",
+        "title": "Fried Chicken Bento",
+        "description": "Nondisp fx of sternal end of right clavicle, init for opn fx",
+        "thumbnail": "/images/lunch/lunch2.png",
+        "price": 55
+    },
+    {
+        "id": "l3",
+        "title": "Tarrangon Rubbed Salmon",
+        "description": "Occ of rail trn/veh injured due to object falling onto train",
+        "thumbnail": "/images/lunch/lunch3.png",
+        "price": 69
+    },
+    {
+        "id": "l4",
+        "title": "Indian Lunch",
+        "description": "Focal chorioretin inflammation of posterior pole, bilateral",
+        "thumbnail": "/images/lunch/lunch4.png",
+        "price": 83
+    },
+    {
+        "id": "l5",
+        "title": "Beef Steak",
+        "description": "Fall into natural body of water striking water surface",
+        "thumbnail": "/images/lunch/lunch5.png",
+        "price": 99
+    },
+    {
+        "id": "l6",
+        "title": "Homey Soy Glazed Salmon with Peppers",
+        "description": "Nondisp commnt fx shaft of l tibia, 7thG",
+        "thumbnail": "/images/lunch/lunch6.png",
+        "price": 41
+    },
+    {
+        "id": 1,
+        "name": "Taragon-Rubbet",
+        "img": "/images/dinner/dinner1.png",
+        "price": "6.99",
+        "description": "How we dream about our future"
+    },
+    {
+        "id": 2,
+        "name": "Fried chicken",
+        "img": "/images/dinner/dinner2.png",
+        "price": "9.99",
+        "description": "How we dream about our future"
+    },
+    {
+        "id": 3,
+        "name": "Beef streak",
+        "img": "/images/dinner/dinner3.png",
+        "price": "15.99",
+        "description": "How we dream about our future"
+    },
+    {
+        "id": 4,
+        "name": "Healthy Meal Plan",
+        "img": "/images/dinner/dinner4.png",
+        "price": "23.99",
+        "description": "How we dream about our future"
+    },
+    {
+        "id": 5,
+        "name": "Indian lunch",
+        "img": "/images/dinner/dinner5.png",
+        "price": "8.99",
+        "description": "How we dream about our future"
+    },
+    {
+        "id": 6,
+        "name": "Honey soy",
+        "img": "/images/dinner/dinner6.png",
+        "price": "8.99",
+        "description": "How we dream about our future"
+    }
+]

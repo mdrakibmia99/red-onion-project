@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Fast delivery",
+        "description": "Despite the lack of personal interaction, the software provides online customers with the same features someone visiting the restaurant or ordering on the phone would have. This includes access to the entire menu with full customization and varied payment methods such as card, PayPal, or cash on pickup or delivery.",
+        "thumbnail": "/images/adult-blur-blurred-background-687824.png"
+    },
+    {
+        "id": 2,
+        "title": "A good auto responder",
+        "description": "Restaurants and takeaways benefit hugely from allowing customers to order food online. Web-based ordering creates more sales opportunities while making existing delivery or takeout processes more accessible. It’s also a great way to set up contactless table service at your restaurant.",
+        "thumbnail": "/images/chef-cook-food-33614.png"
+    },
+    {
+        "id": 3,
+        "title": "Home delivery",
+        "description": "An online food ordering system is software that lets restaurants, coffee shops, or bars accept orders online. It typically allows customers to choose and pay for food, then alerts the kitchen when an order is made. This happens without contact between staff and customers.",
+        "thumbnail": "/images/architecture-building-city-2047397.png"
+    }
+]

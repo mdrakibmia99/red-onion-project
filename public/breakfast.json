@@ -1,0 +1,44 @@
+[
+    {
+        "id": "b1",
+        "title": "Bagel and Cream Cheese",
+        "description": "Nondisp commnt suprcndl fx w/o intrcndl fx unsp humer, 7thG",
+        "thumbnail": "/images/breakfast/breakfast1.png",
+        "price": 75
+    },
+    {
+        "id": "b2",
+        "title": "Breakfast Sandwich",
+        "description": "Nondisp fx of sternal end of right clavicle, init for opn fx",
+        "thumbnail": "/images/breakfast/breakfast2.png",
+        "price": 55
+    },
+    {
+        "id": "b3",
+        "title": "Baked Chiken",
+        "description": "Occ of rail trn/veh injured due to object falling onto train",
+        "thumbnail": "/images/breakfast/breakfast3.png",
+        "price": 69
+    },
+    {
+        "id": "b4",
+        "title": "Eggs Benedict",
+        "description": "Focal chorioretin inflammation of posterior pole, bilateral",
+        "thumbnail": "/images/breakfast/breakfast4.png",
+        "price": 83
+    },
+    {
+        "id": "b5",
+        "title": "Toast Croissant Fried Eggs",
+        "description": "Fall into natural body of water striking water surface",
+        "thumbnail": "/images/breakfast/breakfast5.png",
+        "price": 99
+    },
+    {
+        "id": "b6",
+        "title": "Full Breakfast Fried Egg Toast Bruhch",
+        "description": "Nondisp commnt fx shaft of l tibia, 7thG",
+        "thumbnail": "/images/breakfast/breakfast6.png",
+        "price": 41
+    }
+]

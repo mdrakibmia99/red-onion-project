@@ -1,0 +1,18 @@
+#banner {
+    background-color: #fcf5e1;
+    background-image: url('../../../assets/images/bannerbackground.png');
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#search {
+    font-size: 15px;
+}
+
+#search-bar {
+    width: fit-content;
+}
