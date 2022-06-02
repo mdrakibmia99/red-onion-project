@@ -48,7 +48,7 @@ const Register = () => {
             className='my-5'
         >
             <div
-                className='w-25 mx-auto'
+                className='register_form mx-auto'
             >
                 <div
                     className='mb-5 text-center'

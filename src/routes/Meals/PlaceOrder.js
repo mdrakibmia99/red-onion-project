@@ -32,7 +32,7 @@ const PlaceOrder = () => {
                 className='grid row'
             >
                 <div
-                    className='col-5'
+                    className='col-sm-12 col-lg-5'
                 >
                     <Form onSubmit={handlePlaceOrder}>
                         {/* approach email */}
@@ -121,7 +121,7 @@ const PlaceOrder = () => {
                     </Form>
                 </div>
                 <div
-                    className='col-5'
+                    className='col-sm-12 col-lg-5'
                 >
                     <p>From <b>Gulshan Plaza Restaurant</b></p>
                     <p className='mb-1'>Arriving within 20 to 30 minutes</p>

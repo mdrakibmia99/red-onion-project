@@ -38,7 +38,7 @@ const Login = () => {
             className='my-5'
         >
             <div
-                className='w-25 mx-auto'
+                className='login_form mx-auto '
             >
                 <div
                     className='mb-5 text-center'

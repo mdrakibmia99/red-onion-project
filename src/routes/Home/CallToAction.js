@@ -17,7 +17,7 @@ const CallToAction = () => {
             className='container my-5'
         >
             <article
-                className='w-50'
+                className='article-section'
             >
                 <h2
                     className='mb-2'
@@ -49,7 +49,7 @@ function Card({ callToAction }) {
 
     return (
         <div
-            className='col-4'
+            className='col-sm-12 col-lg-4'
         >
             <div>
                 <img

@@ -1,0 +1,39 @@
+
+@media screen and (min-width:481px) {
+    #login-register{
+        display: flex;
+        white-space: nowrap;
+    }
+    .register-button,.login-button{
+        padding:1rem;
+    }
+    .red-onion-icon{
+        width: 25%;
+    }
+    .login_form,.register_form{
+        width: 25%;
+    }
+    .article-section{
+        width: 50%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    
+    #login-register{
+        display: flex;
+        white-space: nowrap;
+    }
+    .register-button,.login-button{
+        padding:0.5rem;
+    }
+    .red-onion-icon{
+        width: 75%;
+    }
+    .login_form ,.register_form{
+        padding: 0 20px;
+    }
+    .article-section{
+        width: 100%;
+        padding: 0 5px;
+    }
+  }

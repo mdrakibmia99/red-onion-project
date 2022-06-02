@@ -6,6 +6,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import logo from '../assets/images/logo2.png';
 import auth from '../firebase.init';
 import Cart from './Cart';
+import './Header.css'
 
 const Header = () => {
     const navigate = useNavigate();
@@ -29,7 +30,7 @@ const Header = () => {
                         <img
                             src={logo}
                             alt="red onion logo"
-                            className='mw-100 w-25'
+                            className='mw-100 red-onion-icon'
                         />
                     </Link>
                 </div>
@@ -79,17 +80,17 @@ const Header = () => {
                                 </button>
                             </div>
                             :
-                            <div>
+                            <div id="login-register">
                                 <Button
                                     variant="light"
-                                    className='rounded-pill mx-2 px-4'
+                                    className='rounded-pill mx-2 register-button'
                                     onClick={() => navigate('/login')}
                                 >
                                     Sign in
                                 </Button>
                                 <Button
                                     variant="danger"
-                                    className='rounded-pill ms-2 px-4'
+                                    className='rounded-pill ms-2 login-button'
                                     onClick={() => navigate('/register')}
                                 >
                                     Sign up
