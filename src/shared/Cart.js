@@ -20,7 +20,7 @@ const Cart = () => {
     return (
         <table
             className="table table-hover bg-white rounded"
-            style={{ width: "500px" }}
+            
         >
             <thead>
                 <tr>

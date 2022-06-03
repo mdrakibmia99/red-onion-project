@@ -20,6 +20,11 @@
         width:100%;
         height:100%;
     }
+    .order-items{
+        left: -141px;
+        white-space: nowrap;
+        top: 59px;
+    }
    
   }
   @media screen and (max-width: 480px) {
@@ -45,6 +50,11 @@
         width:95%;
         height:80%;
         margin: 0 auto;
+    }
+    .order-items{
+        top: 54px;
+        left: -135px;
+        width: 368px;
     }
     
   }

@@ -50,8 +50,8 @@ const Header = () => {
                             openCart
                             &&
                             <div
-                                className='position-absolute top-100 start-0'
-                                style={{ width: "200px" }}
+                                className='position-absolute  order-items'
+                               
                             >
                                 <Cart />
                             </div>

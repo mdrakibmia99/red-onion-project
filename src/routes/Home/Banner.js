@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import ParticleAnimation from '../../shared/ParticleAnimation';
 import './css/Banner.css';
 
 const Banner = () => {
@@ -19,18 +20,14 @@ const Banner = () => {
     const matchedMeals = meals?.filter(meal => meal?.title?.toLowerCase().includes(mealName?.toLowerCase()));
 
     return (
-        <section
-            id='banner'
-        >
-            <div>
-                <div
-                    className='mb-4'
-                >
+        <section id='banner' >
+            <div style={{overflow:"hidden"}}>
+                <div className='mb-4'>
+            <ParticleAnimation></ParticleAnimation>
                     <h1 className='p-5 p-lg-0 text-center'>Best food waiting for your belly</h1>
                 </div>
-                <div
-                    className='d-flex justify-content-center position-relative'
-                >
+                <div className='d-flex justify-content-center position-relative'  >
+                
                     <p
                         className='bg-white rounded-pill d-flex justify-content-between w-75'
                         id='search-bar'
@@ -48,6 +45,7 @@ const Banner = () => {
                         >
                             Search
                         </button>
+                       
                     </p>
                     <div
                         className={`position-absolute top-100 left-0 w-75 overflow-auto ${mealName === '' && 'd-none'}`}
