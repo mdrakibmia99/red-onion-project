@@ -93,7 +93,7 @@ const MenuItem = () => {
                     <div></div>
                 </div>
                 <div
-                    className=' col-12 col-lg-6 mt-5 mt-lg-0 text'
+                    className=' col-12 col-lg-6 mt-5 mt-lg-0 text-center'
                 >
                     <img
                         src={meal[0]?.thumbnail}
