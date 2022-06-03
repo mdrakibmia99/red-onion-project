@@ -26,7 +26,7 @@ const Reset = () => {
             className='my-5'
         >
             <div
-                className='w-25 mx-auto'
+                className='reset_section mx-auto'
             >
                 <div
                     className='mb-5 text-center'

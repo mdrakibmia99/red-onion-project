@@ -26,7 +26,7 @@ const Banner = () => {
                 <div
                     className='mb-4'
                 >
-                    <h1>Best food waiting for your belly</h1>
+                    <h1 className='p-5 p-lg-0 text-center'>Best food waiting for your belly</h1>
                 </div>
                 <div
                     className='d-flex justify-content-center position-relative'

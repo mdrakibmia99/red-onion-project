@@ -17,7 +17,7 @@ const CallToAction = () => {
             className='container my-5'
         >
             <article
-                className='article-section'
+                className='article-section mb-sm-5 mb-lg-0'
             >
                 <h2
                     className='mb-2'
@@ -31,7 +31,7 @@ const CallToAction = () => {
                 </p>
             </article>
             <div
-                className='grid row g-5 mt-3'
+                className='grid row g-lg-5 g-sm-0 mt-3'
             >
                 {
                     CTA.map(cta => <Card
@@ -49,7 +49,7 @@ function Card({ callToAction }) {
 
     return (
         <div
-            className='col-sm-12 col-lg-4'
+            className='col-sm-12 col-lg-4 col-md-6 g-3  g-lg-5'
         >
             <div>
                 <img

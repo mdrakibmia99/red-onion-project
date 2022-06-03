@@ -6,11 +6,11 @@ const Footer = () => {
     const customStyle = "width: 60px; background-color: #7c4dff; height: 2px";
     const year = new Date().getFullYear();
 
-    const facebook = 'https://www.facebook.com/hasibulislam999.dev/';
-    const twitter = 'https://twitter.com/hasibulislam999';
-    const stackoverflow = 'https://stackoverflow.com/users/16820211/hasibul-islam';
-    const linkedin = 'https://www.linkedin.com/in/hasibulislam999/';
-    const pofo = 'https://hasibulislam999.netlify.app/';
+    const facebook = 'https://www.facebook.com/rakibmia.dev';
+    const twitter = 'https://twitter.com/MdRakib63447617';
+    const stackoverflow = 'https://stackoverflow.com/users/18387450/md-rakib-mia';
+    const linkedin = 'https://www.linkedin.com/in/md-rakib-mia/';
+    const pofo = '#';
 
     return (
         <div>
@@ -46,10 +46,10 @@ const Footer = () => {
                                     style={{ customStyle }}
                                 />
                                 <p>
-                                    <a target={'_blank'} rel="noreferrer" href="https://drive.google.com/file/d/1Gdbax82oaBWz2_0-OYh44E7QvfB53wNS/view?usp=sharing" className="text-white">My Resume</a>
+                                    <a target={'_blank'} rel="noreferrer" href="https://drive.google.com/file/d/11efNCXU8MFW-HFXUV2GGSz6YVY-Yopbi/view?usp=sharing" className="text-white">My Resume</a>
                                 </p>
                                 <p>
-                                    <a target={'_blank'} rel="noreferrer" href="https://drive.google.com/file/d/1WPyODG14JDxSjZBbxt_mSlimP1O4R38e/view?usp=sharing" className="text-white">Cover Letter</a>
+                                    <a target={'_blank'} rel="noreferrer" href="https://drive.google.com/file/d/1lpAo-K5WYMTKQJJgjhxgUVtLU9srfg5x/view?usp=sharing" className="text-white">Cover Letter</a>
                                 </p>
                             </div>
                             {/* <!-- Grid column --> */}
@@ -87,31 +87,31 @@ const Footer = () => {
                                 />
                                 <p><i className="fa fa-envelope me-2"></i>
                                     <a target={'_blank'} rel="noreferrer"
-                                        href="mailto:hasib143sl@gmail.com"
+                                        href="mailto:rakibmia.dev@gmail.com"
                                         className='text-white text-decoration-none'
                                     >
-                                        hasib143sl@gmail.com</a>
+                                        rakibmia.dev@gmail.com</a>
                                 </p>
                                 <p><i className="fa fa-phone me-2"></i>
                                     <a target={'_blank'} rel="noreferrer"
-                                        href="tel:+8801906315901"
+                                        href="tel:+8801913547448"
                                         className='text-white text-decoration-none'
                                     >
-                                        +880 1906-315901</a>
+                                        +880 1913-547448</a>
                                 </p>
                                 <p><i className="fa fa-github me-2 fs-5" aria-hidden="true"></i>
                                     <a target={'_blank'} rel="noreferrer"
-                                        href="https://github.com/hasibulislam999"
+                                        href="https://github.com/rkrakibhasan680"
                                         className='text-white text-decoration-none'
                                     >
-                                        hasibulislam999</a>
+                                        Md Rakib Mia</a>
                                 </p>
                                 <p><i className="fa fa-linkedin-square fs-5 me-2" aria-hidden="true"></i>
                                     <a target={'_blank'} rel="noreferrer"
                                         href={linkedin}
                                         className='text-white text-decoration-none'
                                     >
-                                        hasibulislam999</a>
+                                        md-rakib-mia</a>
                                 </p>
                             </div>
                             {/* <!-- Grid column --> */}

@@ -21,7 +21,7 @@ const Cards = ({ meal, setDisplayItems }) => {
     
     return (
         <div
-            className='col-sm-12 col-lg-4  pt-2'
+            className='col-sm-12 col-lg-4 col-md-6  pt-2'
             id='card-select'
             onClick={()=>handleMealDetail(id)}
         >

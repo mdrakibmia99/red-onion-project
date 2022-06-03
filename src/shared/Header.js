@@ -63,7 +63,7 @@ const Header = () => {
                             <div>
                                 <button
                                     type="button"
-                                    className="btn btn-danger position-relative rounded-pill"
+                                    className="btn btn-danger position-relative rounded-pill me-3 me-lg-0"
                                     onClick={() => signOut(auth)}
                                 >
                                     <span className='fw-bold'>Logout</span>

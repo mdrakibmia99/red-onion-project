@@ -37,25 +37,13 @@ const MenuItem = () => {
         <div
             className={`${!id && 'd-none'} mt-5`}
         >
-            <div
-                className='d-flex'
-            >
-                <div
-                    className='w-50 pe-5'
-                >
+            <div className='grid row' >
+                <div className=' col-12 col-lg-6'>
                     <div>
-                        <h2
-                            className='fs-1 mb-4'
-                        >{meal[0]?.title}</h2>
-                        <p
-                            className='text-muted mb-3'
-                        >{meal[0]?.description} Lorem, ipsum dolor sit amet consectetur adipisicing elit. A excepturi laboriosam non, nisi repellendus, aut obcaecati optio, fuga nostrum voluptatibus vitae quo aperiam. Possimus sit adipisci eos odit officia error.</p>
-                        <div
-                            className='d-flex mt-4 align-items-center'
-                        >
-                            <p
-                                className='mb-0'
-                            >
+                        <h2 className='fs-1 mb-4'>{meal[0]?.title}</h2>
+                        <p className='text-muted mb-3'>{meal[0]?.description} Lorem, ipsum dolor sit amet consectetur adipisicing elit. A excepturi laboriosam non, nisi repellendus, aut obcaecati optio, fuga nostrum voluptatibus vitae quo aperiam. Possimus sit adipisci eos odit officia error.</p>
+                        <div className='d-flex mt-4 align-items-center' >
+                            <p className='mb-0' >
                                 <span className='text-danger fs-3'>$</span>
                                 <span className='ms-1 fs-1'>{meal[0]?.price * QTY}</span>
                             </p>
@@ -105,12 +93,12 @@ const MenuItem = () => {
                     <div></div>
                 </div>
                 <div
-                    className='w-50 ps-5'
+                    className=' col-12 col-lg-6 mt-5 mt-lg-0 text'
                 >
                     <img
                         src={meal[0]?.thumbnail}
                         alt="meal-item"
-                        className='mw-100'
+                        className='mw-100 w-75 '
                     />
                 </div>
             </div>
