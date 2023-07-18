@@ -25,39 +25,14 @@ function App() {
           element={<Home />}
         />
         {/* nested route for meals */}
-        <Route
-          path='/home'
-          element={<Home />}
-        >
-          <Route
-            path='breakfast'
-            element={<Breakfast />}
-          >
-            <Route
-              path='menuItem/:id'
-              element={
-                <RequireAuth>
-                  <MenuItem />
-                </RequireAuth>
-              }
-            />
+        <Route path='/home'element={<Home />} >
+          <Route path='breakfast' element={<Breakfast />} >
+            <Route path='menuItem/:id' element={ <RequireAuth> <MenuItem /> </RequireAuth> }/>
           </Route>
-          <Route
-            path='lunch'
-            element={<Lunch />}
-          >
-            <Route
-              path='menuItem/:id'
-              element={
-                <RequireAuth>
-                  <MenuItem />
-                </RequireAuth>
-              }
-            />
+          <Route path='lunch' element={<Lunch />}>
+            <Route path='menuItem/:id' element={<RequireAuth> <MenuItem /></RequireAuth>}/>
           </Route>
-          <Route
-            path='dinner'
-            element={<Dinner />}
+          <Route path='dinner' element={<Dinner />}
           >
             <Route
               path='menuItem/:id'
